@@ -1,28 +1,27 @@
-//Fibonacci Series using non-recursive method
+//W.A.P to find the Fibonacci series using non recursive functions (Lab Practical) {Code7}
 
 import java.util.Scanner;
 
 public class Code11 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        try (Scanner sc = new Scanner(System.in)) {
+            // Taking user input
+            System.out.print("Enter the number of terms: ");
+            int n = sc.nextInt();
 
-        // Taking user input
-        System.out.print("Enter the number of terms: ");
-        int n = sc.nextInt();
+            // First two terms of Fibonacci series
+            int first = 0, second = 1;
 
-        // First two terms of Fibonacci series
-        int first = 0, second = 1;
+            System.out.print("Fibonacci Series: ");
 
-        System.out.print("Fibonacci Series: ");
+            // Loop to generate the Fibonacci series
+            for (int i = 1; i <= n; i++) {
+                System.out.print(first + " ");
 
-        // Loop to generate the Fibonacci series
-        for (int i = 1; i <= n; i++) {
-            System.out.print(first + " ");
-
-            int next = first + second;
-            first = second;
-            second = next;
+                int next = first + second;
+                first = second;
+                second = next;
+            }
         }
     }
 }
-
