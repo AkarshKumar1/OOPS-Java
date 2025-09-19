@@ -1,7 +1,7 @@
 //W.A.P to calculate the length of any no. input by user  
 
 import java.util.Scanner;
-public class Lengthofanumber {
+public class Length_of_a_number {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
 
