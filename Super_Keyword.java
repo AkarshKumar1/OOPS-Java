@@ -17,7 +17,7 @@ class Student extends Person {
     }
 }
 
-public class InheritanceDemo {
+public class Super_Keyword {
     public static void main(String[] args) {
         Student s = new Student();
         s.display();
