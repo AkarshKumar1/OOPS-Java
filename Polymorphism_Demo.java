@@ -1,4 +1,4 @@
-//W.A.p in java to the concept of polymorphism by designing functions to sum different types of numbers {Code 11}
+//W.A.P in java to the concept of polymorphism by designing functions to sum different types of numbers {Code 11}
 
 class Calculator {
 
