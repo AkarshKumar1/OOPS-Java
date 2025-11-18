@@ -1,4 +1,4 @@
-//W.A.P to show the inheritance in java and use of super keyword. {Code 11}
+//W.A.P to show the inheritance in java and use of super keyword. {Code 10}
 
 class Person {
     String name = "John";

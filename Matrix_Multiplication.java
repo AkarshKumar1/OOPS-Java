@@ -1,4 +1,4 @@
-// W.A.P to find AXB where A is a matrix of 3X3 and B is a matrix of 3X3. {Code 9}
+// W.A.P to find AXB where A is a matrix of 3X3 and B is a matrix of 3X3. {Code 8}
 
 public class Matrix_Multiplication {
     public static void main(String[] args) {
